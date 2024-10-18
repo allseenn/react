@@ -1,0 +1,6 @@
+.EventCard {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    align-items: stretch;
+}

@@ -1,9 +1,10 @@
+import './EventCard.css';
 function EventCard(props) {
     return ( 
-        <div>
-            <h1>{props.name}</h1>
-            <p>{props.date}</p>
-            <p>{props.place}</p>
+        <div className='EventCard'>
+            <div>{props.name}</div>
+            <div>{props.date}</div>
+            <div>{props.place}</div>
         </div>
      );
 }
