@@ -1,0 +1,20 @@
+.Message {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
+    width: 60vw;
+    align-items: start;
+    align-content: start;
+    padding: 20px; 
+}
+
+
+
+  
+
+
+
+
+
+
+
+
