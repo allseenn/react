@@ -156,3 +156,52 @@ export default Counter;
 
 1. Любое имя стейта со стартовым значением
 2. Функция-сеттер для изменения данного стейта. Ее принято называть как и сеттер, но с приставкой set.
+
+Деструктурировать в переменные из массива можно еще одним способом:
+
+```js
+const countState = useState(0);
+const count = countState[0];
+const setCount = countState[1];
+```
+
+Увеличить счетчик можно так:
+
+```js
+function Count() {
+    let [count, setCount] = useState(0)
+    return ( 
+        <div>
+            <h3>{count}</h3>
+            <br />
+            <button onClick={() => setCount(prev => ++prev)}>count + 1</button>
+        </div>
+     );
+}
+```
+
+Либо с помощью специальной объявленной функции:
+
+```js
+function Counter() {
+    const [count, setCount] = useState(0);
+    const updateCount = () => { 
+        setCount(count+1)
+    }
+    return ( 
+        <div>
+            <span>
+                {count}
+            </span>
+            <br />
+            <button onClick={updateCount}>
+                click + 1
+            </button>
+        </div>
+     );
+}
+```
+
+Жизненный цикл реакта:
+
+
