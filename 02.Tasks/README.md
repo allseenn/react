@@ -20,4 +20,4 @@ const [comments, setComments] = useState([
 
 ## Решение
 
-[CommentsList](./components/CommentsList.js)
+[CommentsList](./app/src/components/CommentsList.js)
