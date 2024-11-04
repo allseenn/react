@@ -34,3 +34,17 @@
 
 - При нажатии на кнопку добавления, новая задача должна добавляться в список.
 - Рядом с каждой задачей должна быть кнопка для её удаления.
+
+## Решение
+
+### Главное приложение
+
+[App.js][app/src/App.js]
+
+### Компонент TemperatureConverter
+
+[TemperatureConverter.js][app/src/components/TemperatureConverter.js]
+
+### Компонент TodoList
+
+[TodoList.js][app/src/components/TodoList.js]
