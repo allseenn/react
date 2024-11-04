@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BasicBox, BasicButtons, BasicTextFields } from './components/TemperatureConverter';
-import CommentsList from './components/TodoLIst';
+import TodoList from './components/TodoList';
 function App() {
   const [celsius, setCelsius] = useState('');
   const [fahrenheit, setFahrenheit] = useState('');
@@ -47,7 +47,7 @@ function App() {
       />
       <BasicButtons name="Конвертировать" onClick={handleConvert} />
     </div>
-      <CommentsList />
+      <TodoList />
       </div>
   );
 }

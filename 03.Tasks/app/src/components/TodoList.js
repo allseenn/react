@@ -10,7 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-export default function CommentsList() {
+export default function TodoList() {
     const [comments, setComments] = useState([
         { id: 1, text: "Задача 1" },
         { id: 2, text: "Задача 2" },
