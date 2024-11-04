@@ -39,12 +39,12 @@
 
 ### Главное приложение
 
-[App.js][app/src/App.js]
+[App.js](app/src/App.js)
 
 ### Компонент TemperatureConverter
 
-[TemperatureConverter.js][app/src/components/TemperatureConverter.js]
+[TemperatureConverter.js](app/src/components/TemperatureConverter.js)
 
 ### Компонент TodoList
 
-[TodoList.js][app/src/components/TodoList.js]
+[TodoList.js](app/src/components/TodoList.js)
