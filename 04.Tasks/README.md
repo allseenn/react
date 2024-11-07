@@ -19,3 +19,8 @@
 - В каждом компоненте добавьте простой текст, например, `<h1>Главная страница</h1>` для HomePage и `<h1>О нас</h1>` для AboutPage.
 
 - Реализовать переходы.
+
+### Решение
+
+- [HomePage.js](./src/components/HomePage.js)
+- [AboutPage.js](./src/components/AboutPage.js)
