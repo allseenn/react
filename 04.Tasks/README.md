@@ -22,5 +22,6 @@
 
 ### Решение
 
+- [App.js](./app/src/App.js)
 - [HomePage.js](./app/src/components/HomePage.js)
 - [AboutPage.js](./app/src/components/AboutPage.js)
