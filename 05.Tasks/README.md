@@ -61,15 +61,14 @@ flowchart TD
     K:::file
 
     %% Добавляем ссылки к каждому узлу
-    click C "./app/src/actions/themeActions.js" "Перейти к themeActions.js"
-    click E "./app/src/components/ThemeToggle.js" "Перейти к ThemeToggle.js"
-    click G "./app/src/reducers/themeReducer.js" "Перейти к themeReducer.js"
-    click H "./app/src/App.js" "Перейти к App.js"
-    click I "./app/src/index.css" "Перейти к index.css"
-    click J "./app/src/index.js" "Перейти к index.js"
-    click K "./app/src/store.js" "Перейти к store.js"
+    click C "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/actions/themeActions.js" "Перейти к themeActions.js"
+    click E "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/components/ThemeToggle.js" "Перейти к ThemeToggle.js"
+    click G "https://github.com/allseenn/react/blob/main/05.Tasks//app/src/reducers/themeReducer.js" "Перейти к themeReducer.js"
+    click H "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/App.js" "Перейти к App.js"
+    click I "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/index.css" "Перейти к index.css"
+    click J "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/index.js" "Перейти к index.js"
+    click K "https://github.com/allseenn/react/blob/main/05.Tasks/app/src/store.js" "Перейти к store.js"
 
     %% Стили для файлов
     classDef file fill:#f9f9f9,stroke:#007bff,stroke-width:2px,corner-radius:5px;
 ```
-
