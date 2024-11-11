@@ -1,11 +1,9 @@
-/* Стили для body */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Стили для контейнера приложения */
 .app {
   display: flex;
   justify-content: center;
@@ -13,13 +11,12 @@ body {
   height: 100vh;
 }
 
-/* Светлая тема */
 .light {
   background-color: #f0f0f0;
   color: #000;
 }
 
-/* Тёмная тема */
+
 .dark {
   background-color: #1a1a1a;
   color: #fff;

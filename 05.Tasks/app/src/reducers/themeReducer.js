@@ -1,10 +1,9 @@
 import { TOGGLE_THEME } from '../actions/themeActions';
 
 const initialState = {
-  theme: 'light', // начальная тема
+  theme: 'light',
 };
 
-// Reducer
 const themeReducer = (state = initialState, action) => {
   switch (action.type) {
     case TOGGLE_THEME:
