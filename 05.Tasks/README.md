@@ -34,6 +34,7 @@ app/src
 └── [store.js](./app/src/store.js)
 
 
+```mermaid
 flowchart TD
     A[app/src] --> B[actions]
     B --> C[[themeActions.js]]
@@ -70,3 +71,5 @@ flowchart TD
 
     %% Стили для файлов
     classDef file fill:#f9f9f9,stroke:#007bff,stroke-width:2px,corner-radius:5px;
+```
+
