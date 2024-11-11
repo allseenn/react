@@ -23,11 +23,11 @@
 
 app/src
 ├── actions
-│── [themeActions.js](./app/src/actions/themeActions.js)
+│   └── [themeActions.js](./app/src/actions/themeActions.js)
 ├── components
-│── [ThemeToggle.js](./app/src/components/ThemeToggle.js)
+│   └── [ThemeToggle.js](./app/src/components/ThemeToggle.js)
 ├── reducers
-│── [themeReducer.js](./app/src/reducers/themeReducer.js)
+│   └── [themeReducer.js](./app/src/reducers/themeReducer.js)
 ├── [App.js](./app/src/App.js)
 ├── [index.css](./app/src/index.css)
 ├── [index.js](./app/src/index.js)
