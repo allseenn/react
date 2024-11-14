@@ -27,28 +27,27 @@
 
 ```mermaid
 flowchart TD
-    A[src]
-    A1[actions] --> A2[[productActions.js]]
-    A --> A1
-    A --> B[[App.js]]
-    A --> C[components]
-    C --> C1[[ProductEdit.js]]
-    C --> C2[[ProductForm.js]]
-    C --> C3[[ProductList.js]]
-    A --> D[[index.css]]
-    A --> E[[index.js]]
-    A --> F[reducers]
-    F --> F1[[productReducer.js]]
-    A --> G[store]
-    G --> G1[[index.js]]
+    src --> actions
+    actions --> productActions["productActions.js"]
+    src --> App["App.js"]
+    src --> components
+    components --> ProductEdit["ProductEdit.js"]
+    components --> ProductForm["ProductForm.js"]
+    components --> ProductList["ProductList.js"]
+    src --> indexCSS["index.css"]
+    src --> indexJS["index.js"]
+    src --> reducers
+    reducers --> productReducer["productReducer.js"]
+    src --> store
+    store --> storeIndex["index.js"]
 
-    click A2 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/actions/productActions.js"
-    click B href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/App.js"
-    click C1 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductEdit.js"
-    click C2 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductForm.js"
-    click C3 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductList.js"
-    click D href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/index.css"
-    click E href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/index.js"
-    click F1 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/reducers/productReducer.js"
-    click G1 href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/store/index.js"
+    click productActions href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/actions/productActions.js"
+    click App href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/App.js"
+    click ProductEdit href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductEdit.js"
+    click ProductForm href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductForm.js"
+    click ProductList href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/components/ProductList.js"
+    click indexCSS href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/index.css"
+    click indexJS href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/index.js"
+    click productReducer href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/reducers/productReducer.js"
+    click storeIndex href "https://github.com/allseenn/react/blob/main/06.Tasks/app/src/store/index.js"
     ```
