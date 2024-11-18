@@ -25,7 +25,6 @@ graph TD
     D --> F[tasksSlice.js]
     A --> G[data]
     G --> H[tasks.js]
-    A --> I[reducers]
 
     click A href "https://github.com/allseenn/react/blob/main/07.Tasks/app/src/index.js" "index.js"
     click B href "https://github.com/allseenn/react/blob/main/07.Tasks/app/src/index.css" "index.css"
@@ -33,6 +32,5 @@ graph TD
     click E href "https://github.com/allseenn/react/blob/main/07.Tasks/app/src/store/store.js" "store.js"
     click F href "https://github.com/allseenn/react/blob/main/07.Tasks/app/src/store/tasksSlice.js" "tasksSlice.js"
     click H href "https://github.com/allseenn/react/blob/main/07.Tasks/app/src/data/tasks.js" "tasks.js"
-
 ```
 
