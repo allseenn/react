@@ -13,3 +13,18 @@
 4. Создание асинхронного действия с использованием Thunk: Используйте createAsyncThunk для создания асинхронного действия, которое "загружает" данные задач из локального файла. Хотя данные и локальные, имитируйте асинхронное поведение, например, с использованием setTimeout.
 
 5. Работа с компонентом: Используйте хуки useDispatch и useSelector в компоненте для диспетчеризации асинхронного действия и выборки списка задач из состояния. Выведите список задач.
+
+## Решение
+
+```mermaid
+graph TD
+    A[index.js](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/index.js) --> B[index.css](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/index.css)
+    A --> C[App.js](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/App.js)
+    A --> D[store]
+    D --> E[store.js](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/store/store.js)
+    D --> F[tasksSlice.js](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/store/tasksSlice.js)
+    A --> G[data]
+    G --> H[tasks.js](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/data/tasks.js)
+    A --> I[reducers](https://github.com/allseenn/react/blob/main/07.Tasks/app/src/reducers)
+```
+

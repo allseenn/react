@@ -7,7 +7,7 @@ const App = () => {
   const { items, loading, error } = useSelector((state) => state.tasks);
 
   useEffect(() => {
-    dispatch(fetchTasks()); // Загружаем задачи при монтировании
+    dispatch(fetchTasks()); 
   }, [dispatch]);
 
   if (loading) return <p>Загрузка...</p>;
